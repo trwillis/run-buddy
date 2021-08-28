@@ -50,7 +50,9 @@ footer {
 
 section { 
   padding: 60px;
-  }
+    }
+
+ 
 
 /* Hero Style Start*/
 .hero { 
@@ -71,4 +73,24 @@ section {
   bottom: 120px;
   right: 140px;
 }
-/* End Hero Style/*
+/* End Hero Style*/
+
+.trainers { 
+  text-align: center;
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+    
+  }
+  .trainer img {
+    width: 35%;
+    float: left;
+    
+  }
+  .trainer-bio {
+    padding: 35px;
+    float: right;
+    width: 65%;
+  }
