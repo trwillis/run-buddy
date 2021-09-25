@@ -1,8 +1,10 @@
 header {
-  padding: 20px 35px;
   background-color: #39a6b2;
   width: 100%;
-  padding: 40px 35px;
+  padding: 40px 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   }
   
 
@@ -28,21 +30,28 @@ header a {
 }
 
 header nav { 
-  float: right;
-  margin:7px 0;
+    margin:7px 0;
   }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a { 
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
@@ -53,14 +62,15 @@ section {
     }
 
  
-
 /* Hero Style Start*/
 .hero { 
-  background-image: url(./images/hero-bg.jpg);
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("images\flipped-hero-bg.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;
+
 }
 
 .hero-form {
@@ -68,10 +78,7 @@ section {
   background-color: #fce138;
   color: #024e76;
   padding: 20px;
-  width: 500px;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
+  
 }
 /* End Hero Style*/
 
